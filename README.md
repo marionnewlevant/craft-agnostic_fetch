@@ -8,7 +8,7 @@ To install Agnostic Fetch, follow these steps:
 
 1. Download & unzip the file, rename the unzipped folder to `agnosticfetch` and place the `agnosticfetch` folder into your `craft/plugins` folder
 2. -OR- do a `git clone https://github.com/marionnewlevant/craft3-agnositic_fetch.git` directly into your `craft/plugins` folder, and rename to `agnosticfetch`. You can then update it with `git pull`
-3. -OR- install with Composer via `composer require marionnewlevant/agnositic-fetch` from your project folder
+3. -OR- install with Composer via `composer require marionnewlevant/agnostic-fetch` from your project folder
 4. Install plugin in the Craft Control Panel under Settings > Plugins
 5. The plugin folder should be named `agnosticfetch` for Craft to see it.
 
