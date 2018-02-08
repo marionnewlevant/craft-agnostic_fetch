@@ -24,7 +24,7 @@ class AgnosticFetchHelper
         {
             return (count($stuff) ? $stuff[0] : null);
         } else {
-            return $stuff->all();
+            return $stuff->one();
         }
     }
 
