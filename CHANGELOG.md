@@ -1,5 +1,9 @@
 # Agnostic Fetch Changelog
 
+## 2.0.2 - 2018-02-13
+### Fixed
+- typo in documentation and update urls (`agnostic`, not `agnositic`)
+
 ## 2.0.1 - 2018-02-08
 ### Fixed
 - `one` was returning `all` for non-eagerly loaded things
