@@ -2,7 +2,7 @@
     "name": "marionnewlevant/agnostic-fetch",
     "description": "uniform syntax for fetching elements whether or not they have been eager loaded",
     "type": "craft-plugin",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "keywords": [
         "craft", "craftcms", "craft-plugin", "agnostic-fetch", "eager"
     ],
@@ -27,7 +27,7 @@
         "schemaVersion": "1.0.0",
         "hasSettings": false,
         "hasCpSection": false,
-        "documentationUrl": "https://github.com/marionnewlevant/craft-agnositic_fetch/blob/v2/README.md",
-        "changelogUrl": "https://raw.githubusercontent.com/marionnewlevant/craft-agnositic_fetch/v2/CHANGELOG.md"
+        "documentationUrl": "https://github.com/marionnewlevant/craft-agnostic_fetch/blob/v2/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/marionnewlevant/craft-agnostic_fetch/v2/CHANGELOG.md"
     }
 }
