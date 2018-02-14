@@ -1,5 +1,9 @@
 # Agnostic Fetch Changelog
 
+## 2.0.3 - 2018-02-14
+### Added
+- return something sensible when passed `null`
+
 ## 2.0.2 - 2018-02-13
 ### Fixed
 - typo in documentation and update urls (`agnostic`, not `agnositic`)
