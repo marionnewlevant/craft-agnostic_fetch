@@ -42,7 +42,7 @@ class Plugin extends \craft\base\Plugin
         parent::init();
 
         // Add in our Twig extensions
-        Craft::$app->view->twig->addExtension(new AgnosticFetchTwigExtension());
+        Craft::$app->view->registerTwigExtension(new AgnosticFetchTwigExtension());
     }
 
     /**
