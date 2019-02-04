@@ -1,5 +1,9 @@
 # Agnostic Fetch Changelog
 
+## 2.0.4 - 2019-02-04
+### Fixed
+- proper registering of template variables
+
 ## 2.0.3 - 2018-02-14
 ### Added
 - return something sensible when passed `null`

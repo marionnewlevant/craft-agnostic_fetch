@@ -2,7 +2,7 @@
     "name": "marionnewlevant/agnostic-fetch",
     "description": "uniform syntax for fetching elements whether or not they have been eager loaded",
     "type": "craft-plugin",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "keywords": [
         "craft", "craftcms", "craft-plugin", "agnostic-fetch", "eager"
     ],
