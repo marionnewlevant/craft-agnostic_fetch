@@ -10,6 +10,8 @@
 
 namespace marionnewlevant\agnosticfetch;
 
+use craft\web\twig\variables\CraftVariable;
+use yii\base\Event;
 use marionnewlevant\agnosticfetch\variables\AgnosticFetchVariable;
 use marionnewlevant\agnosticfetch\twigextensions\AgnosticFetchTwigExtension;
 
@@ -43,6 +45,12 @@ class Plugin extends \craft\base\Plugin
 
         // Add in our Twig extensions
         Craft::$app->view->registerTwigExtension(new AgnosticFetchTwigExtension());
+
+        Event::on(CraftVariable::class, CraftVariable::EVENT_INIT, function(Event $event) {
+            /** @var CraftVariable $variable */
+            $variable = $event->sender;
+            $variable->set('agnosticfetch', AgnosticFetchVariable::class);
+        });
     }
 
     /**
@@ -55,6 +63,5 @@ class Plugin extends \craft\base\Plugin
     public function defineTemplateComponent()
     {
         return AgnosticFetchVariable::class;
-    }
-
+    }    
 }
